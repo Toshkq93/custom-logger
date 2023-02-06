@@ -1,0 +1,22 @@
+{
+    "name": "toshkq93/custom-logger",
+    "description": "Logger PSR-3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Stanovoi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "psr/log": "^3.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logger\\": "src"
+        }
+    }
+}
